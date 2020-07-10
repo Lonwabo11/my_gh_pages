@@ -23,5 +23,5 @@ jobs:
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_branch: gh-pages
-        folder: docs
+        folder: .
         publish_dir: ./
